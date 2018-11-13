@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mfha">MFHA</string>
+    <string name="_713_270_5657">713-270-5657</string>
+    <string name="_101_main_st_houston_tx_77587">101 Main St, Houston, Tx 77587</string>
+
+    <string name="Bars_Category">Bars</string>
+    <string name="Restaurant_Category">Resturants</string>
+    <string name="Attractions_Category">Attractions</string>
+    <string name="Museums_Category">Museums</string>
+
+
+</resources>

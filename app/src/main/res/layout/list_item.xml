@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:backgroundTintMode="src_atop"
+        >
+
+
+        <ImageView
+            android:id="@+id/Attraction_picture"
+            android:layout_gravity="right"
+            android:layout_width="88sp"
+            android:layout_height="88sp"
+            android:padding="12dp"
+            android:src="@drawable/mfha" />
+
+        <LinearLayout
+            android:id="@+id/attraction_info"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/attraction_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mfha" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/attraction_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_713_270_5657" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/attraction_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_101_main_st_houston_tx_77587" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

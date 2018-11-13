@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD8E09"
+    >
+
+
+
+
+    <ImageView
+        android:id="@+id/AttractionImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/mfha"
+        android:backgroundTint="#ffff"
+        />
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        >
+
+
+
+        <LinearLayout
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/AttracttionName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mfha"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/AttractionPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/_713_270_5657"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/AttractionAddres"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_101_main_st_houston_tx_77587"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageView
+            android:id="@+id/Phone_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:src="@drawable/baseline_local_phone_black_18dp"
+            android:layout_gravity="center_vertical"/>
+
+
+        <ImageView
+            android:id="@+id/home_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_home_black_18dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:id="@+id/navigation"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="12dp"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_navigation_black_18dp"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
